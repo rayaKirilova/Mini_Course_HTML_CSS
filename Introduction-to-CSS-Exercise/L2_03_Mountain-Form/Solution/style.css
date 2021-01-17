@@ -1,0 +1,86 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif ; 
+    height: 100vh ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 80vh ; 
+    width: 50vw ; 
+    display: flex;
+}
+
+.img-side, 
+    .article-form {
+    width: 50% ; 
+}
+
+.img-side {
+    background-image: linear-gradient(to bottom, rgba(73, 111, 199, 0.5), rgba(83, 47, 87, 0.5)),
+    url("../Requirements-and-Resources/Images/peak.jpg");
+    background-size: cover;
+    color: white ; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 12px ; 
+    border-bottom-left-radius: 12px ;
+    padding-bottom: 10px ;
+}
+.icon-section p {
+    font-weight: bold ; 
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/* styles for form side */
+.article-form {
+    border: 4px solid #37062C ; 
+    border-top-right-radius: 12px ; 
+    border-bottom-right-radius: 12px ; 
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px ; 
+}
+
+label {
+    color: rgba(120, 120, 120, 0.6) ; 
+    padding: 10px 0 5px 0 ; 
+}
+
+input {
+    font-size: 18px ; 
+    color: #787878 ; 
+    font-weight: bold ; 
+    border-width: 0 0 2px ; 
+    border-color: #787878 ; 
+}
+.button {
+    padding-top: 10px ; 
+}
+button {
+    border-radius: 7px ; 
+    padding: 10px 15px ;
+    background-color: #37062C ; 
+    color: white ; 
+    outline: none ; 
+    margin-top: 15px ; 
+}
+
+span {
+    color: #37062C ; 
+    font-weight: bold ;
+}
