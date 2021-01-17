@@ -1,0 +1,120 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0 ; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header styles*/
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px 0 10px ; 
+    height: 10vh ;
+}
+
+.logo {
+    display: flex;
+    color: #F9690E ; 
+    font-weight: bold;
+    padding-top: 5px ; 
+}
+i {
+    padding: 15px ; 
+}
+
+nav ul {
+    display: flex ; 
+    padding-top: 8px; 
+}
+nav ul li {
+    color: #F9690E ; 
+    padding: 10px ; 
+    list-style-type: none ;
+}
+
+/*main styles*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 ; 
+}
+
+img {
+    width: 100% ; 
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    width: 50% ; 
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 170, .5) ; 
+    padding: 5px 0 10px 15px;
+}
+h1 {
+    color: white ; 
+}
+
+span {
+    color: #F9690E ; 
+}
+
+button {
+    color: white ; 
+    background-color: #F9690E ; 
+    align-self: center;
+    width: 20% ; 
+    padding: 10px ; 
+    outline: none;
+    border: none ; 
+}
+
+button:hover {
+    color: #F9690E ; 
+    background: white;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*styles for article */
+
+section.articles {
+    display: flex;
+    justify-content: space-between;
+    height: 30vh ;
+}
+
+article {
+    flex-basis: 35% ; 
+    background-color: #F9690E ; 
+    color: white ; 
+    border-right: 3px solid white ; 
+    padding: 20px 20px 20px 30px   ;
+}
+
+/* styles for footer*/ 
+
+footer {
+    height: 10vh ; 
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px ; 
+}
+ul {
+    display: flex ;
+    margin: 0 ; 
+}
+footer ul li {
+    list-style-type: none ;
+    padding-right: 15px ; 
+}
+
