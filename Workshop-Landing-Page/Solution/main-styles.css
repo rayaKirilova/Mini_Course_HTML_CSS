@@ -1,0 +1,161 @@
+/* styles for image section*/
+.img-section {
+    background-image: linear-gradient(90deg, rgba(238,238,238,0.2) 0%, rgba(0,0,0,0.6) 37%),
+    url("../Requirements-and-Resources/Images/kids_main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh ; 
+    margin: 0 10px ;
+    background-position: center top ; 
+    color: white ; 
+    display: flex;
+}
+
+
+.heading-and-btn {
+    align-self: center;
+    margin-left: 40px ;   
+}
+.heading-and-btn p {
+    font-size: 42px;
+    font-weight: bold;
+    margin: 0 ;  
+}
+
+.heading-and-btn button {
+    margin-top: 20px;
+    background: none;
+    border: 2px solid white ; 
+    border-radius: 5px;
+    color: white ; 
+    padding: 10px 20px ;
+    font-weight: bold;
+}
+
+.heading-and-btn button:hover {
+    background-color: #43BAE3  ;
+    border: none ; 
+    color: white ;  
+    border-radius: 0 ; 
+    cursor: pointer;
+}
+
+.white-section {
+    text-align: center ; 
+    font-style: italic;
+    color: #5A7C8A ;   
+}
+.white-section article {
+    margin: 0 auto ;
+    width: 80% ; 
+}
+
+.white-section article h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.white-section article p {
+    margin: 5px 0 ; 
+}
+/* big blue section*/
+.blue-section {
+    text-align: center ; 
+    background-color: #43BAE3 ;
+    color: white ; 
+    margin: 5px 10px 0 10px ; 
+}
+.blue-section-main-article {
+    padding-top: 20px ;
+    margin-bottom: 0 ; 
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+.artcles-section {
+    display: flex ; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 40px ; 
+    margin-top: 10px ; 
+}
+
+.small-img-articles {
+    width: 30% ; 
+    text-align: center ; 
+    padding: 15px ;
+}
+
+img {
+    width: 70px  ; 
+}
+
+/* styles for upcaming camps */
+
+.upcaming-camps  {
+    color: #5A7C8A ; 
+}
+.upcoming-camps-first-article {
+    text-align: center ; 
+}
+
+.upcoming-camps-first-article h3 {
+    font-style : italic ; 
+}
+.camps-articles {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px ; 
+}
+.camps-articles article {
+    width: 30% ; 
+}
+.camp-details img {
+    width: 100% ; 
+    height: 50% ; 
+}
+
+.mini-header {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.mini-header p {
+    margin: 0 ; 
+}
+
+.heading-and-date {
+    margin: 0 ; 
+    padding: 2px 0 2px 0 ; 
+}
+.camp-heading {
+    font-weight: bold ; 
+}
+
+.price {
+    background-color:  #43BAE3 ;
+    color: white ; 
+    font-size: 24px ; 
+    padding: 4px; 
+    text-align: center;
+}
+.camp-info {
+    border-top: 2px solid #5A7C8A ; 
+    margin-top: 5px; 
+    padding-top: 5px ; 
+}
+
+.camp-details button {
+    border: 2px solid #43BAE3 ;
+    background-color: white ; 
+    color: #43BAE3 ;
+    padding: 8px 10px;
+    outline: none ;  
+}
+
+.camp-details button:hover {
+    background-color:  #43BAE3 ;
+    color: white ; 
+    border: none ; 
+}
+

@@ -1,0 +1,28 @@
+footer {
+    margin: 0 10px ; 
+    background-color: #43BAE3 ;
+    color: #5A7C8A ; 
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    margin: 10px ;
+}
+
+.footer-icons {
+    display: flex;
+    margin-right: 20px ; 
+    padding-left: 20px ; 
+}
+.footer-icons li {
+    list-style: none;
+    border: 2px solid #5A7C8A ; 
+    border-radius: 50% ; 
+    text-align: center;
+    margin-right: 3px ; 
+}
+.footer-icons li i {
+    padding:  5px ;
+}
+

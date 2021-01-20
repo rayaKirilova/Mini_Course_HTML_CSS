@@ -1,0 +1,64 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css' ; 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans&display=swap');
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 ; 
+    font-family: 'PT Sans', sans-serif;
+}
+
+/*styles for header*/
+header {
+    display: flex ;   
+    justify-content: space-between;
+    height: 60px ; 
+
+}
+/*logo styles */
+h2 {
+    margin-left: 20px ; 
+    font-size: 20px ;
+}
+h2 span {
+    color: #43BAE3 ; 
+}
+
+nav {
+    display: flex ;
+}
+ul.navigation,
+    ul.icons {
+    display: flex ;
+}
+
+.navigation li,
+    .icons li {
+        list-style-type: none;
+}
+
+/*styles for header navigation */
+
+.navigation li {
+    align-self: center;
+    margin-right: 10px ; 
+}
+
+/*styles for header icons */
+.icons {
+    margin-right: 20px ; 
+    padding-left: 20px ; 
+}
+.icons li {
+    border: 2px solid black ; 
+    border-radius: 50% ; 
+    text-align: center;
+    margin-right: 3px ; 
+}
+.icons li i {
+    padding:  5px ;
+}
+
+
